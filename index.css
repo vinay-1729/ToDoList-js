@@ -2,7 +2,8 @@ body {
     margin: 10px auto;
     min-width: 250px;
     max-width: 50%;
-    background-color: silver;
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+
   }
   * {
     box-sizing: border-box;
@@ -53,7 +54,6 @@ body {
     width: 7px;
   }
   
-  /* Style the close button */
   .close {
     position: absolute;
     right: 0;
@@ -62,13 +62,13 @@ body {
   }
   
   .close:hover {
-    background-color: crimson;
+    background-color: rgb(147, 120, 125);
     color: white;
   }
   .header {
-    background-color: crimson;
+    background-color: rgb(172, 142, 148);
     padding: 30px 40px;
-    color: white;
+    color: rgb(6, 31, 120);
     text-align: center;
   }
   .header:after {
